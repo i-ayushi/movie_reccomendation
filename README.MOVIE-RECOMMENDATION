@@ -1,0 +1,100 @@
+# 🎬 Movie Recommendation System
+
+Welcome to the **Movie Recommendation System** — a Python-based project that suggests movies tailored to user interests using content-based filtering.
+
+---
+
+## ✨ Features
+
+- Recommends similar movies based on your input
+- Uses **TF-IDF Vectorizer** and **cosine similarity**
+- Clean and beginner-friendly Python code
+- Simple interface (terminal/GUI if you have added one)
+- Scalable and customizable
+
+---
+
+## 🧠 How It Works
+
+This system uses **content-based filtering**, where movie plots or genres are compared to find similar movies. The core idea is:
+
+> "If you liked *Inception*, you'll probably like *Interstellar* too!"
+
+Steps involved:
+1. Load the dataset (CSV file with movies)
+2. Clean and preprocess data
+3. Extract key features using **TF-IDF**
+4. Find similarities using **cosine similarity**
+5. Recommend top 5 similar movies
+
+---
+
+## 🗂️ Technologies Used
+
+- Python
+- Pandas
+- Scikit-learn
+- NumPy
+- Jupyter Notebook / Terminal
+
+---
+
+## ⚙️ How to Run
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/i-ayushi/movie_recommendation.git
+   cd movie_recommendation
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the script:
+   ```bash
+   python recommend.py
+   ```
+
+---
+
+## 📝 Example Output
+
+```
+Enter your favorite movie: The Dark Knight
+Recommended Movies:
+1. Batman Begins
+2. The Prestige
+3. Inception
+4. Man of Steel
+5. Iron Man
+```
+
+---
+
+## 📁 Dataset Info
+
+The project uses a cleaned movie dataset (e.g., TMDB or IMDB). You can replace or expand the dataset to improve recommendations.
+
+---
+
+## 💡 Future Improvements
+
+- Add GUI using Tkinter or Streamlit
+- Integrate with live TMDB API
+- Add user ratings & collaborative filtering
+
+---
+
+## 🙋‍♀️ About Me
+
+I’m Ayushi, a BCA student and aspiring full-stack developer.  
+This project is part of my learning journey in Data Science and Python.
+
+**Let’s connect on GitHub!**  
+➡️ [@i-ayushi](https://github.com/i-ayushi)
+
+---
+
+## ⭐️ Don't forget to star this repo if you like it!
